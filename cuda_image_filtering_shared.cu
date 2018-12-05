@@ -34,7 +34,7 @@ inline unsigned int iDivUp( const unsigned int &a, const unsigned int &b ) { ret
 ///
 /// The declaration of the constant memory space for filter coefficients
 ///
-const unsigned int MAX_FILTER_SIZE = 90;
+const unsigned int MAX_FILTER_SIZE = 79;
 __device__ __constant__ float d_cFilterKernel[ MAX_FILTER_SIZE * MAX_FILTER_SIZE ];
 
 ///
